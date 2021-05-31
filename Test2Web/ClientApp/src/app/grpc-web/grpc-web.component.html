@@ -1,0 +1,18 @@
+<h1 id="tableLabel">GRPC Web</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!info"><em>Loading...</em></p>
+
+<table class="table table-striped" aria-labelledby="tableLabel" *ngIf="forecasts">
+  <thead>
+    <tr>
+      <th>Message</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ info.message}}</td>
+    </tr>
+  </tbody>
+</table>

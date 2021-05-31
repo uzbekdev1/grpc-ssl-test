@@ -1,0 +1,1 @@
+>dotnet dev-certs https -ep aspnetapp.pfx -p 1234

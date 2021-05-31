@@ -1,0 +1,17 @@
+﻿{
+  "profiles": {
+    "Test2Agent": {
+      "commandName": "Project",
+      "dotnetRunMessages": "true",
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:20001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLSL": "https://+",
+        "ASPNETCORE_HTTPS_PORT": "20001",
+        "ASPNETCORE_Kestrel__Certificates__Default__Password": "1234",
+        "ASPNETCORE_Kestrel__Certificates__Default__Path": "devcert.pfx"
+      }
+    }
+  }
+}
